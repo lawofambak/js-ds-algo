@@ -18,4 +18,4 @@ function fibonacciSequence(n) {
 fibonacciSequence(7);
 
 // Time complexity of O(n)
-// Space complexity of O(1)
+// Space complexity of O(n)
