@@ -1,0 +1,23 @@
+// @param n represents the positive integer to determine if the number is a power of "b" or not
+// @param b represents the base power number (power of "b")
+function power(n, b) {
+  if (n < 1) {
+    return false;
+  }
+
+  while (n > 1) {
+    if (n % b !== 0) {
+      return false;
+    }
+
+    n /= b;
+  }
+
+  return true;
+}
+
+power(64, 4); // true
+power(100, 7); // false
+
+// Time complexity of O(logn)
+// Space complexity of O(1)
