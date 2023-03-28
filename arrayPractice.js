@@ -1,4 +1,5 @@
 // Function to reverse an array
+// Time complexity: O(n)
 const array_1 = [1, 2, 3, 4, 5];
 
 function reverseArray(_array) {
