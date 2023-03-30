@@ -1,6 +1,6 @@
 // Queue is a linear data structure that follows the FIFO principle
 
-class Queue {
+export default class Queue {
   constructor() {
     this.items = [];
     this.front = 0;
@@ -35,17 +35,6 @@ class Queue {
     return this.items[this.front];
   }
 }
-
-const newQueue = new Queue();
-newQueue.enqueue(1);
-newQueue.enqueue(2);
-newQueue.enqueue(3);
-console.log(newQueue.dequeue()); // 1
-console.log(newQueue.peek()); // 2
-newQueue.dequeue();
-newQueue.dequeue();
-console.log(newQueue.isEmpty()); // true
-console.log(newQueue.dequeue()); // null
 
 // Time complexity of enqueue: O(1)
 // Time complexity of dequeue: O(1)

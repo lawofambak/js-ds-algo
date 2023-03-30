@@ -1,0 +1,23 @@
+{
+  "name": "js-ds-algo",
+  "version": "1.0.0",
+  "description": "Javascript Data Structures & Algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lawofambak/js-ds-algo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lawofambak/js-ds-algo/issues"
+  },
+  "homepage": "https://github.com/lawofambak/js-ds-algo#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^29.5.0"
+  }
+}
