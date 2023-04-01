@@ -1,18 +1,24 @@
-function fizzBuzz(n) {
+export default function fizzBuzz(n) {
+  let result = [];
+
   for (let i = 1; i <= n; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-      console.log("FizzBuzz");
+      result.push("FizzBuzz");
+      // console.log("FizzBuzz");
     } else if (i % 3 === 0) {
-      console.log("Fizz");
+      result.push("Fizz");
+      // console.log("Fizz");
     } else if (i % 5 === 0) {
-      console.log("Buzz");
+      result.push("Buzz");
+      // console.log("Buzz");
     } else {
-      console.log(i);
+      result.push(i);
+      // console.log(i);
     }
   }
-}
 
-fizzBuzz(30);
+  return result;
+}
 
 // Time complexity of O(n)
 // Space complexity of O(1)
