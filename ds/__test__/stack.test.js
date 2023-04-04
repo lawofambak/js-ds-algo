@@ -1,4 +1,4 @@
-import Stack from "../stack";
+import Stack from "../Stack";
 
 describe("Stack", () => {
   it("Should create an empty stack", () => {
