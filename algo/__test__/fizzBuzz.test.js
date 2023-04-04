@@ -1,4 +1,4 @@
-import fizzBuzz from "../fizzbuzz";
+import fizzBuzz from "../fizzBuzz";
 
 describe("FizzBuzz", () => {
   it("Should print out the correct result array", () => {

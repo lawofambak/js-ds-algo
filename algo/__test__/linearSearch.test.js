@@ -1,4 +1,4 @@
-import linearSearch from "../linearsearch";
+import linearSearch from "../linearSearch";
 
 describe("Linear Search", () => {
   it("Should return index of element if contained in array", () => {
