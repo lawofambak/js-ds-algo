@@ -1,5 +1,3 @@
-const NUM_ARRAY = [2, 7, 4, 11, 10, 25, 5];
-
 export default function bubbleSort(_array) {
   let length = _array.length;
 
