@@ -1,8 +1,8 @@
 export default function bubbleSort(_array) {
   let length = _array.length;
 
-  for (let i = 0; i < length; i++) {
-    for (let j = 0; j < length; j++) {
+  for (let i = 0; i < length - 1; i++) {
+    for (let j = 0; j < length - i - 1; j++) {
       if (_array[j] > _array[j + 1]) {
         let temp = _array[j];
         _array[j] = _array[j + 1];
