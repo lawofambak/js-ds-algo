@@ -11,7 +11,7 @@ describe("Stack", () => {
     const stack = new Stack();
 
     expect(stack.push(1)).toEqual(1);
-    expect(stack.push(2)).toEqual(2);
+    expect(stack.push(5)).toEqual(5);
   });
 
   it("Should remove elements from stack", () => {
