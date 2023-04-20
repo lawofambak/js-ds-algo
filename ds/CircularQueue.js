@@ -20,6 +20,7 @@ export default class CircularQueue {
     this.items[this.rear] = element;
     this.rear = (this.rear + 1) % this.size;
     this.itemCount++;
+    return element;
   }
 
   dequeue() {
